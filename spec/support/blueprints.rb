@@ -11,3 +11,7 @@ end
 #     title { "Post #{sn}" }
 #     body  { "Lorem ipsum..." }
 #   end
+
+Menu.blueprint do
+  
+end
