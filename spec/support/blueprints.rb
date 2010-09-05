@@ -14,4 +14,6 @@ end
 
 Menu.blueprint do
   
+Order.blueprint do
+  # Attributes here
 end
