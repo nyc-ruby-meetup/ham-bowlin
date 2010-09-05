@@ -1,0 +1,19 @@
+<%= form_for(:reservation) do |f|%>
+	<p>
+		<%= f.label :start_time %>
+		<%= f.datetime_select :start_time %>
+	</p>
+	<p>
+		<%= f.label :end_time %>
+		<%= f.datetime_select :end_time%>
+	</p>
+	<p>
+		<%= f.label :lane_id %>
+		<%= f.text_field :lane_id%>
+	</p>
+	<p>
+		<%= f.label :patron_id%>
+		<%= f.text_field :patron_id %>
+ 	</p>
+<%= f.submit "create"%>
+<% end %>
