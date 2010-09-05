@@ -33,7 +33,7 @@ gem 'machinist', '>= 2.0.0.beta1'
 gem 'launchy'
 gem 'pickle'
 gem 'pickler'
-
+gem 'mysql', '2.8.1'
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
